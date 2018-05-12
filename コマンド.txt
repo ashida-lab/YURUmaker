@@ -1,0 +1,3 @@
+python pix2pix.py --mode train --output_dir yuru_train --max_epochs 2000 --input_dir data/train --which_direction AtoB
+
+python pix2pix.py --mode test --output_dir yuru_test --input_dir data/eval --checkpoint yuru_train
